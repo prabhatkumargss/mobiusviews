@@ -56,7 +56,7 @@ const CardImages = () => {
             section.scrollIntoView({ behavior: "smooth" });
           }
         }}
-          className="flex items-center gap-2 mt-10 px-6 py-3 text-[var(--body_Header)] rounded-[30px] text-sm sm:text-base transition duration-300 hover:-translate-y-1"
+          className="flex items-center gap-2 mt-10 px-6 py-3 mb-[15px] text-[var(--body_Header)] rounded-[30px] text-sm sm:text-base transition duration-300 hover:-translate-y-1"
           style={{
             boxShadow: "rgba(0, 0, 0, 0.35) 0px 5px 15px",
           }}

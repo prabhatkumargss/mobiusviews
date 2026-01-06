@@ -90,6 +90,8 @@ const Home = () => {
               alt="Left Hand"
               className="relative z-20 w-[300px] sm:w-[400px] lg:w-[500px] object-contain"
             />
+
+            
           </div>
         </div>
       </section>

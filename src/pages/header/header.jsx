@@ -5,6 +5,8 @@ import img from "../../assets/images/mobiousLogo.png";
 import { Link } from "react-router-dom";
 import ContactModal from "../../component/ContactModal";
 import RequestAQuote from "../requestAQuote/RequestAQuote";
+import img2 from "../../assets/images/service.png";
+
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -128,11 +130,27 @@ function Header() {
         )}
       </header>
 
+        {/* Floating Mobile Service Image */}
+          {showScrollToTop && (
+      <div
+        onClick={() => setOpen(true)}
+        className="
+          fixed bottom-2 right-1 
+          z-50 sm:hidden p-2 
+        "
+      >
+        <img
+          src={img2}
+          alt="Service Floating"
+          className="w-[140px] h-[55px] object-cover rounded-lg mobile-pulse"
+        />
+      </div>)}
+
       {/* Back to Top Button */}
       {showScrollToTop && (
         <button
           onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-          className="fixed bottom-6 right-6 z-50 bg-[var(--button_Primary)] text-white p-3 rounded-full shadow-md hover:bg-[var(--button_Primary_hover)] transition"
+          className="fixed bottom-6 left-6 z-50 bg-[var(--button_Primary)] text-white p-3 rounded-full shadow-md hover:bg-[var(--button_Primary_hover)] transition"
           aria-label="Back to top"
         >
            <MoveUp />

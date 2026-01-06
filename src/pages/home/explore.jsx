@@ -24,20 +24,28 @@ const Explore = () => {
     <>
     <div className="bg-[var(--backGround_primary)]">
       {/* Hero Section */}
-      <section className="relative w-full bg-cover bg-center">
-        <div className="relative grid grid-cols-1 md:grid-cols-1  lg:grid-cols-2 gap-10 items-center">
+     <section className="relative w-full bg-cover bg-center">
+        <div className="relative grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
+
           {/* Left Side - Text Content */}
-          <div className="items-center"  data-aos="fade-right">
-            <p className="text-[var(--body_Header)] font-bold text-2xl sm:text-3xl lg:text-4xl  mb-5">
+          <div
+            className="items-center order-2 lg:order-1"
+            data-aos="fade-right"
+          >
+            <p className="text-[var(--body_Header)] font-bold text-2xl sm:text-3xl lg:text-4xl mb-5">
               Why Choose MobiusViews?
             </p>
             <CardImages />
           </div>
 
-          {/* Right Side - Optional Image or Illustration */}
-          <div className="items-center"  data-aos="fade-left">
-            <Work open={open} onClose={onClose}  setOpen = {setOpen}/>
+          {/* Right Side - Work Component */}
+          <div
+            className="items-center order-1 lg:order-2"
+            data-aos="fade-left"
+          >
+            <Work open={open} onClose={onClose} setOpen={setOpen} />
           </div>
+
         </div>
       </section>
     </div>

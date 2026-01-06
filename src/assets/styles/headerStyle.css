@@ -1,0 +1,11 @@
+/* styles/header.css */
+
+@media (max-width: 768px) {
+  .mobile-nav-open {
+    display: block;
+  }
+
+  .mobile-nav-closed {
+    display: none;
+  }
+}

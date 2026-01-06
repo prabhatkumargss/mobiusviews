@@ -1,0 +1,25 @@
+.RightHanddots{
+   width: 10vw;
+   height: 70px;
+}
+
+.relativeContainer {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.backgroundFlames {
+  position: absolute;
+  left: 0;
+  z-index: 5;
+  object-fit: contain;
+}
+
+.leftHandImg {
+  position: relative;
+  z-index: 7;
+  height: 400px;
+  object-fit: contain;
+}

@@ -1,0 +1,48 @@
+
+.analytics-wrapper {
+  background: white;
+  overflow: hidden;
+}
+
+/* Wave containers */
+.wave {
+  width: 100%;
+  line-height: 0;
+}
+
+.wave-top svg {
+  display: block;
+  width: 100%;
+   top: 9px;
+  height: 100px;
+  transform: rotate(180deg); /* flips the wave vertically */
+}
+
+/* Flip bottom wave */
+.wave-bottom svg {
+  display: block;
+  width: 100%;
+  height: 100px;
+  transform: rotate(180deg);
+}
+
+/* Dark middle section */
+.analytics-section {
+  background-color: var(--body_Color);
+  color: var(--text-color);
+  text-align: center;
+}
+
+/* Heading styling */
+.analytics-heading {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 40px;
+  color: white;
+} 
+
+
+.wave-top::before {
+    top: 9px !important;
+}
+

@@ -134,15 +134,12 @@ function Header() {
           {showScrollToTop && (
       <div
         onClick={() => setOpen(true)}
-        className="
-          fixed bottom-2 right-1 
-          z-50 sm:hidden p-2 
-        "
-      >
+        className="fixed bottom-2 right-1 
+          z-50 sm:hidden p-2 ">
         <img
           src={img2}
           alt="Service Floating"
-          className="w-[140px] h-[55px] object-cover rounded-lg mobile-pulse"
+          className="w-[140px] h-[55px] object-cover rounded-lg mobile-pulse cursor-pointer"
         />
       </div>)}
 
@@ -150,7 +147,7 @@ function Header() {
       {showScrollToTop && (
         <button
           onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-          className="fixed bottom-6 left-6 z-50 bg-[var(--button_Primary)] text-white p-3 rounded-full shadow-md hover:bg-[var(--button_Primary_hover)] transition"
+          className="fixed bottom-6 left-6 z-50 bg-[var(--button_Primary)] text-white p-3 rounded-full shadow-md hover:bg-[var(--button_Primary_hover)] transition cursor-pointer"
           aria-label="Back to top"
         >
            <MoveUp />
@@ -166,5 +163,5 @@ function Header() {
   );
 }
 
-export default Header;
+export default Header; 
 

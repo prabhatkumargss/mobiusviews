@@ -70,7 +70,7 @@ const DashboardCard = () => {
           <div
             key={index}
             data-aos="flip-right"
-            className="bg-[var(--backGround_primary)] border-2 border-[var(--button_Primary)] rounded-2xl shadow-md hover:shadow-lg transition duration-300 flex items-center gap-4 px-4 py-4 h-[200px]"
+            className="bg-[var(--backGround_primary)] border-2 border-[var(--button_Primary)] rounded-2xl shadow-md hover:shadow-lg transition duration-300 flex items-center gap-4 px-4 py-4 h-[200px] cursor-pointer"
             style={{
               boxShadow: `
                 var(--button_Primary_hover) 3px 4px,
@@ -92,7 +92,7 @@ const DashboardCard = () => {
 
          <div className="content-center">
       {/* Button */}
-      <button className="mt-10 px-8 py-3 text-[var(--backGround_primary)] bg-[var(--button_Primary)] rounded-[30px] text-sm sm:text-base transition duration-300 hover:-translate-y-1 mb-10 border-2 border-[var(--button_Primary)]"
+      <button className="mt-10 px-8 py-3 text-[var(--backGround_primary)] bg-[var(--button_Primary)] rounded-[30px] text-sm sm:text-base transition duration-300 hover:-translate-y-1 mb-10 border-2 border-[var(--button_Primary)] cursor-pointer"
         
           onClick={() => setOpen(true)}
       >

@@ -39,7 +39,7 @@ export default function ContactModal({ open, onClose, children }) {
         {/* Close Button */}
         <button
           onClick={handleClose}
-          className="absolute top-4 right-4 text-white sm:text-white md:text-gray-600 hover:text-red-500 transition z-30 "
+          className="absolute top-4 right-4 text-white sm:text-white md:text-gray-600 hover:text-red-500 transition z-30 cursor-pointer "
         >
           <X size={22} className="font-extrabold " />
         </button>

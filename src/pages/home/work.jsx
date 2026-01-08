@@ -66,7 +66,7 @@ const Work = ({ open, onClose, setOpen }) => {
               <img
                 src={img2}
                 alt="Service (desktop)"
-                className="w-full max-w-[300px] md:max-w-[80%] h-auto rounded-xl"
+                className="w-full max-w-[300px] md:max-w-[80%] h-auto rounded-xl cursor-pointer"
               />
             </div>
 

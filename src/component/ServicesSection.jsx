@@ -52,7 +52,7 @@ export default function ServicesSection() {
         {/* Close Button */}
         <button
           onClick={handleClose}
-          className="absolute top-3 right-3 text-gray-400 hover:text-black transition"
+          className="absolute top-3 right-3 text-gray-400 hover:text-black transition cursor-pointer"
         >
           <X size={18} />
         </button>

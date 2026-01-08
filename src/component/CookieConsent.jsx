@@ -36,7 +36,7 @@ export default function CookieConsent() {
       {/* Close button */}
       <button
         onClick={handleClose}
-        className="absolute top-3 right-3 text-gray-400 hover:text-gray-600"
+        className="absolute top-3 right-3 text-gray-400 hover:text-gray-600 cursor-pointer"
       >
         <X size={18} />
       </button>

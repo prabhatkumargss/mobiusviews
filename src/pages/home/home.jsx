@@ -15,7 +15,7 @@ const Home = () => {
   }, []);
 
   return (
-    <div className="" id="home" >
+    <div className="" id="home">
       <section
         className="relative w-full overflow-hidden bg-[var(--body_Color)] lg:h-[650px] md:h-[550px] sm:h-[500px] px-4 md:px-10 py-16"
         style={{
@@ -68,7 +68,7 @@ const Home = () => {
                   section.scrollIntoView({ behavior: "smooth" });
                 }
               }}
-              className="bg-[var(--button_Primary)] hover:bg-[var(--button_Primary_hover)] transition text-[var(--backGround_primary)] font-semibold px-3 sm:px-3 lg:px-6 py-1 lg:py-3 rounded-full text-sm sm:text-base lg:text-lg shadow-lg tracking-wider"
+              className="bg-[var(--button_Primary)] hover:bg-[var(--button_Primary_hover)] transition text-[var(--backGround_primary)] font-semibold px-3 sm:px-3 lg:px-6 py-1 lg:py-3 rounded-full text-sm sm:text-base lg:text-lg shadow-lg tracking-wider cursor-pointer"
             >
               LEARN MORE
             </button>
@@ -76,7 +76,7 @@ const Home = () => {
             <img
               src={dots}
               alt="dots"
-              className="w-[180px] sm:w-[160px] lg:w-[190px] h-auto"
+              className="w-[180px] sm:w-[160px] lg:w-[190px] h-auto "
             />
           </div>
 
@@ -90,8 +90,6 @@ const Home = () => {
               alt="Left Hand"
               className="relative z-20 w-[300px] sm:w-[400px] lg:w-[500px] object-contain"
             />
-
-            
           </div>
         </div>
       </section>

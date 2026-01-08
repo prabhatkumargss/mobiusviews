@@ -28,12 +28,6 @@ const AnalyticsDashboard = () => {
         </section>
       </div>
       {/* Top Wave */}
-      {/* <img
-        src={waveTop}
-        alt="Top Wave"
-        className="relative top-0 left-0 w-full h-auto object-cover z-10 pointer-events-none"
-      /> */}
-
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 1440 320"

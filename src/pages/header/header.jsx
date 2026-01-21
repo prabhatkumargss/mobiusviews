@@ -1,3 +1,4 @@
+
 import React, { useState, useEffect } from "react";
 import { Menu, X, MoveUp } from "lucide-react";
 import "../../assets/styles/headerStyle.css";
@@ -79,7 +80,6 @@ function Header() {
       {/* HEADER */}
       <header className="fixed top-0 left-0 right-0 bg-[var(--backGround_primary)] shadow-md z-40">
         <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-10 flex items-center justify-between h-14">
-
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
             <img src={img} alt="Logo" className="h-9 w-9 object-contain" />

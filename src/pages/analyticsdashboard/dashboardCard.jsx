@@ -26,36 +26,36 @@ const DashboardCard = () => {
 
   const cardData = [
     {
-      id : 1,
+      id : "customDashboard",
       image: img1,
       title: "Custom Dashboard Development",
     },
     {
-      id : 2,
+      id : "customChart",
       image: img2,
       title: "Custom Chart & Visualization Creation",
     },
     {
-      id : 3,
+      id : "dataIntegration",
       image: img3,
       title: "Data Integration from Multiple Sources",
     },
-    {id : 4,
+    {id : "aiPower",
       image: img4,
       title: "AI-powered Predictive Analytics",
     },
     {
-      id : 5,
+      id : "realTime",
       image: img5,
       title: "Real-time Reporting Solutions",
     },
     {
-      id : 6,
+      id : "dataStorytelling",
       image: img6,
       title: "Data Storytelling & Insight Presentation",
     },
     {
-      id : 7,
+      id : "powerBI",
       image: img7,
       title:
         "Power BI, Tableau, Google Looker Studio, Excel, Python, R, SQL, SPSS, Alteryx, Google BigQuery, Azure ML, and DataRobot",

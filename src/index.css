@@ -49,3 +49,8 @@ body::-webkit-scrollbar-thumb{
 .mobile-pulse {
   animation: mobilePulse 1.4s ease-in-out infinite;
 }
+
+@theme inline {
+  --color-body_Header: var(--body_Header);
+  --color-button_Primary: var(--button_Primary);
+}

@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from "react";
 import MainHome from "./pages/mainHome/MainHome";
 import { Routes, Route } from "react-router-dom";
-import Services from "./pages/services/services";
+import CustomDashboard from "./pages/services/CustomDashboard";
+import CustomChart from "./pages/services/CustomChart";
 import Header from "./pages/header/header";
 
 
@@ -14,7 +15,8 @@ function App() {
      <Routes>
         <Route path="/" element={<MainHome />} />
         <Route path="/home" element={<MainHome />} />
-        <Route path="/services/:id" element={<Services/>} />
+        <Route path="/services/customDashboard" element={<CustomDashboard/>} />
+        <Route path="/services/customChart" element={<CustomChart/>} />
     </Routes>
       </div>
     </div>

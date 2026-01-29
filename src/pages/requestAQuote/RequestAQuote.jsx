@@ -1,8 +1,5 @@
 import React, { useState } from "react";
-import { MapPin, Phone, Mail, ShoppingCart, ChevronsRight } from "lucide-react";
-import img from "../../assets/images/quote.png";
-import { postData } from "../../auth/api";
-import { alertError, alertSuccess } from "../../assets/components/AlertMessage";
+import { MapPin, Phone, Mail} from "lucide-react";
 import LoaderWithLogo from "../../assets/components/Loader";
 import AlertMessage from "../../component/AlertMessage";
 import ReCAPTCHA from "react-google-recaptcha";
